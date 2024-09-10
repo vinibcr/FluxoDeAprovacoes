@@ -2,6 +2,7 @@
 API do Jira: Busco automaticamente todos os chamados que necessitam de aprovação e envio e-mails para o superior, incluindo cópias. Análise de Comentários: A solução extrai e-mails de superiores diretamente dos chamados, agilizando o processo de notificação e evitando falhas manuais.  Adiciona comentários automáticos em todos os chamados.
 
 Explicação breve das funções:
+
 buscar_chamados_do_filtro: Busca os chamados abertos no Jira com base em um filtro.
 obter_comentarios_chamado: Obtém todos os comentários de um chamado específico.
 extrair_email_superior: Extrai o e-mail do superior imediato e um e-mail adicional a partir dos comentários.
